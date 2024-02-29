@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/frdr8k/math-learning.git
+RUN git clone https://github.com/frdr8k/math-learning-.git
 
-WORKDIR /<the forked reposi
+WORKDIR /math-learning-
 
 RUN npm install
 
